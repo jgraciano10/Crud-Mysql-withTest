@@ -32,7 +32,7 @@ public class ProductoServicio implements IProductoServicio{
     }
 
     @Override
-    public void eliminarProductoById(Integer IdProducto) {
+    public  void eliminarProductoById(Integer IdProducto) {
         this.productorepository.deleteById(IdProducto);
     }
 }
